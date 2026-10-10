@@ -1,25 +1,25 @@
 class Courtside < Formula
   desc "Validate, convert and summarise volleyball scouting files"
   homepage "https://github.com/cillianbc/courtside-cli"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cillianbc/courtside/releases/download/v0.1.0/courtside-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "9748938695cfc037560b1e1099df3e0b09b70debd209f40bb5b719203d111e2d"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "03441251fa33dec4fb14ca5209cfe6b819ede64b0e5777860f7a78883cb17dd7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cillianbc/courtside/releases/download/v0.1.0/courtside-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "bedf9c848d6ade23484cfab25be1a4d9e01880e56e0274d0d42a420701d536be"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "af87fe0ec522deba877d77779b72ed1721368cbf97caea8a51e98e58a6aaa20d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cillianbc/courtside/releases/download/v0.1.0/courtside-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b678efe7d58d24c6c83c0e6fe9dacb80a7c35a532c7e7f2c50d350f548b345b2"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d000e7b44dad86e45d140b4d5085fff2f96107b85b2b0cf8874b337184b54389"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cillianbc/courtside/releases/download/v0.1.0/courtside-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ac7f8c669d379fadc99f6f75ddaef929a3b329f46a2db9266d971ca7db5958e2"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "778e8789a5b98138cab9e32861820f0d074bd903077ecc0fe48f1fdafa82edf5"
     end
   end
   license "UNLICENSED"
