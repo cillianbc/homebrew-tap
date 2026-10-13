@@ -1,25 +1,25 @@
 class Courtside < Formula
   desc "Validate, convert and summarise volleyball scouting files"
   homepage "https://github.com/cillianbc/courtside-cli"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "03441251fa33dec4fb14ca5209cfe6b819ede64b0e5777860f7a78883cb17dd7"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.2.0/courtside-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "9340d6d06620aedc659dafd55c8278f0d8cace1d13794232ad43ae5344c60380"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "af87fe0ec522deba877d77779b72ed1721368cbf97caea8a51e98e58a6aaa20d"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.2.0/courtside-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "00785899e955f0338545b003c1584e3f3d2ee2f94ff5524bf58dc432d10ae78c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d000e7b44dad86e45d140b4d5085fff2f96107b85b2b0cf8874b337184b54389"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.2.0/courtside-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "71ab37bfb39d02ed13ade7b7a3b9c6e1be81bb4250ff038f2f29217baa4f7ebc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.1.1/courtside-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "778e8789a5b98138cab9e32861820f0d074bd903077ecc0fe48f1fdafa82edf5"
+      url "https://github.com/cillianbc/courtside-cli/releases/download/v0.2.0/courtside-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9900553f7877eef377a2c7dad2d1adc1c4cba154413284dc696fab01bde3b8ce"
     end
   end
   license "UNLICENSED"
